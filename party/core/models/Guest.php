@@ -10,6 +10,20 @@ class Guest {
 		return $this->id;
 	}
 
+	function getFirstName() {
+		return $this->firstname;
+	}
+	function setFirstName($firstname) {
+		$this->firstname = $firstname;
+	}
+
+	function getLastName() {
+		return $this->lastname;
+	}
+	function setLastName($lastname) {
+		$this->lastname = $lastname;
+	}
+
 	function getName() {
 		return "{$this->firstname} {$this->lastname}";
 	}
@@ -19,5 +33,8 @@ class Guest {
 			return "No email";
 		}
 		return $this->email;
+	}
+	function setEmail($email) {
+		$this->email = $email;
 	}
 }

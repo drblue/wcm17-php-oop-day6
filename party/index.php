@@ -17,3 +17,5 @@ require("core/init.php");
 	}
 ?>
 </ol>
+
+<a href="signup.php">Anmäl dig till festen</a>
