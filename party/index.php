@@ -1,6 +1,7 @@
 <?php
 
 require("core/init.php");
+require("templates/header.php");
 
 ?>
 
@@ -19,3 +20,6 @@ require("core/init.php");
 </ol>
 
 <a href="signup.php">Anmäl dig till festen</a>
+
+<?php
+require("templates/footer.php");
